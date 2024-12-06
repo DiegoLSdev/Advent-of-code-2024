@@ -19,8 +19,6 @@ def part1(input_data):
     return sum(multiplied_pairs) # Sum of pairs multiplied
 
 
-import re
-
 def part2(input_data):
     # Storage of pairs to multiply
     multiplied_pairs = []
