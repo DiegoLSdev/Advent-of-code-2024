@@ -5,9 +5,6 @@ def part1(input_data):
     updates = [[int(num) for num in x.split(",")] for x in lines if "," in x]
 
     def check_validity(page):
-        """
-        Check if the given page list adheres to the ordering rules.
-        """
         for rule in rules:
             before, after = rule
             if before in page and after in page:
